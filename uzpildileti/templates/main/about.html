@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% block css %}
+<link href="{% static 'css/about.css' %}" rel="stylesheet">
+{% endblock %}
+{% block title %}
+<title>Par mums</title>
+{% endblock %}
+<body>
+    {% block content %}
+    <!-- Par mums sadaļa -->
+    <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title-1">Par mums</h5>
+            <p class="card-text-1">Šeit ir pieejama informācija par reālā laika degvielas uzpildes staciju cenām. Galvenais mērķis ir nodrošināt precīzu un aktualizētu informāciju par degvielas cenām dažādās degvielas uzpildes stacijās Latvijā.</p>
+            <h5 class="card-title-2">Mūsu mērķis</h5>
+            <p class="card-text-2">Šī vietne palīdz autovadītājiem atrast vispieejamākās degvielas cenas savā tuvumā un izvairīties no pārmaksas. Kā arī tās mērķis ir nodrošināt pārredzamību degvielas nozarē un sniegt patērētājiem informāciju, kas var palīdzēt viņiem pieņemt informētus lēmumus par degvielas iegādi.</p>
+            <p id="data-text">Dati tiek iegūti no - <a href="https://gas.didnt.work/?country=lv&brand=&city="><u>gas.didnt.work</u></a></p>
+          </div>
+        </div>
+      </div>
+    {% endblock %}
+</body>

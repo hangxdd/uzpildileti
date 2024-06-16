@@ -1,0 +1,112 @@
+/* Degvielas uzpildes staciju sadaļa */
+.big-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 180px;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  }
+
+.small-card {
+    margin: 20px 0 20px -75px;
+    width: 112.5%;
+    height: 90%;
+    padding: 20rem;
+    transition: all .2s ease;
+    position: relative;
+}
+
+.logo {
+  width: 125px;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+}
+
+.name {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+}
+
+.name-2 {
+    position: absolute;
+    left: 150px;
+    top: 95px;
+}
+
+.name-3 {
+    position: absolute;
+    left: 150px;
+    top: 135px;
+    color:#c2c2c2;
+}
+
+.checkmark {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    transform: scale(1.5);
+    color: rgb(0, 98, 255);
+}
+
+.prices {
+    position: absolute;
+    left: 750px;
+    top: 170px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    height: 0px;
+}
+
+.prices a{
+    font-weight: bold;
+    border: 10px solid transparent;
+    border-radius: 100px;
+    color: white !important;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.fuel1 {
+    background-color: #999;
+}
+
+.fuel2 {
+    background-color: rgb(255, 191, 0);
+}
+
+.fuel3 {
+    background-color: rgb(27, 183, 27);
+}
+
+.fuel4 {
+    background-color: #e25b39;
+}
+
+.prices li {
+    margin: 100px 0 0 100px;
+}
+
+.favourite {
+    position: absolute;
+    left: 435px;
+    top: 12.5px;
+    transform: scale(2);
+    color:#999
+}

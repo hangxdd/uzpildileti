@@ -1,0 +1,209 @@
+/* Dropdown pogas */
+.dropdown{
+    position: absolute;
+    top: 10px;
+    left: 42.5px;
+    z-index: 1;
+    display: grid;
+}
+
+.dropdown .btn{
+    background-color: #e25b39;
+    color: white;
+    width: 220%;
+}
+
+.dropdown .btn:hover{
+    background-color: #e2a139;
+    transition: all .3s ease;
+}
+
+.custom-dropdown-menu1 {
+    animation: fadeIn 0.5s;
+    min-width: 225%;
+    border-radius: 0px !important;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.dropdown2{
+    position: absolute;
+    top: 10px;
+    left: 430px;
+    z-index: 1;
+    display: grid;
+}
+
+.dropdown2 .btn{
+    background-color: #e25b39;
+    color: white;
+    width: 325%;
+}
+
+.dropdown2 .btn:hover{
+    background-color: #e2a139;
+    transition: all .3s ease;
+}
+
+.custom-dropdown-menu2 {
+    animation: fadeIn 0.5s;
+    min-width: 325%;
+    border-radius: 0px !important;
+}
+
+.dropdown3{
+    position: absolute;
+    top: 10px;
+    left: 790px;
+    z-index: 1;
+    display: grid;
+}
+
+.dropdown3 .btn{
+    background-color: #e25b39;
+    color: white;
+    width: 200%;
+}
+
+.dropdown3 .btn:hover{
+    background-color: #e2a139;
+    transition: all .3s ease;
+}
+
+.custom-dropdown-menu3 {
+    animation: fadeIn 0.5s;
+    min-width: 200%;
+    border-radius: 0px !important;
+}
+
+.dropdown4{
+    position: absolute;
+    top: 10px;
+    left: 1140px;
+    z-index: 1;
+    display: grid;
+}
+
+.dropdown4 .btn{
+    background-color: #e25b39;
+    color: white;
+    width: 345%;
+}
+
+.dropdown4 .btn:hover{
+    background-color: #e2a139;
+    transition: all .3s ease;
+}
+
+.custom-dropdown-menu4 {
+    animation: fadeIn 0.5s;
+    min-width: 340%;
+    border-radius: 0px !important;
+}
+
+/* Degvielas uzpildes staciju sadaļa */
+.big-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 150px;
+    padding-top: 40px;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  }
+
+.small-card {
+    margin: 20px 0 20px -75px;
+    width: 112.5%;
+    height: 90%;
+    border: 1px solid #e8e8e8;
+    padding: 1rem;
+    transition: all .2s ease;
+    position: relative;
+  }
+
+.small-card:hover{
+    border: 1px solid black;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.name {
+    position: absolute;
+    left: 125px;
+    top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.location {
+    position: absolute;
+    left: 125px;
+    top: 85px;
+    font-size: 1rem;
+    color: #999;
+}
+
+.prices {
+    position: absolute;
+    display: flex;
+    left: 300px;
+    top: -50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.prices a{
+    font-weight: bold;
+    border: 10px solid transparent;
+    border-radius: 100px;
+    color: white !important;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.fuel1 {
+    background-color: #999;
+}
+
+.fuel2 {
+    background-color: rgb(255, 191, 0);
+}
+
+.fuel3 {
+    background-color: rgb(27, 183, 27);
+}
+
+.fuel4 {
+    background-color: #e25b39;
+}
+
+.prices li {
+    margin: 100px 0 0 100px;
+}
+
+.favourite {
+    position: absolute;
+    left: 1400px;
+    transform: scale(2);
+    color:#999
+}
+
+.favourite:hover {
+    color: black;
+}
